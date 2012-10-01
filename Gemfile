@@ -12,3 +12,4 @@ gem 'compass', '~> 0.12.2'
 # Sass libraries
 gem 'grid-coordinates', '~> 1.1.4'
 gem 'sassy-buttons'
+gem 'bootstrap-sass'
