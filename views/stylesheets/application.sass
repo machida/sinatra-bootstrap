@@ -1,25 +1,21 @@
 @import compass/reset
 @import compass/utilities
 @import compass/css3
+@import ../vender/stylesheets/yui_fonts
+@import ../vender/stylesheets/font-awesome
+@import sassy-buttons
 
-// Base font
-=font-default
-  font: 13px Arial, Helvetica, sans-serif
-  
 // Links
 a
   color: #3366CC
   &:hover
     color: #3366CC
-    text-decoration: none
   &:focus,
   &:active
-    outline: none
   &:visited
     // Default style for visited links
 
 body
-  +font-default
   background: #fff
   color: #0d0d0d
   h1
@@ -31,6 +27,15 @@ body
     margin-top: -40px
     text-align: center
     width: 100%
+  .button_link
+    a
+      +sassy-button("simple", 10px, 19px, #4ba3cc)
+      text-decoration: none
+      position: absolute
+      top: 58%
+      left: 50%
+      margin: 0 0 0 -60px
+      
   ul
     +border-radius(6px)
     background: #e7e7e7
