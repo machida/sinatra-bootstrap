@@ -1,6 +1,6 @@
 source :rubygems
 
-gem "rake", "~> 0.9.2.2"
+gem "rake", "~> 10.0.2"
 gem 'sinatra', '~> 1.3.3'
 gem 'shotgun', '~> 0.9'
 gem 'haml', '~> 3.1'
